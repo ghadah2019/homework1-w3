@@ -482,3 +482,18 @@ div.back {
     width: 1420px;
 
   }
+
+
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 30px;
+    align-items:right;
+  }
+  
+  input[type="text"] {
+    display: flex;
+    margin-right: 10px;
+    align-items: right;
+  }
