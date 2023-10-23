@@ -1,0 +1,484 @@
+.myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+   
+  }
+
+  
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* background: rgba(200, 181, 223, 0.79); */
+    background:linear-gradient(to right,rgba(24, 202, 215, 0.458),rgba(255, 0, 234, 0.396));
+    color: #f1f1f1;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+
+  #myBtn {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+   
+
+    width: 200px;
+    font-size: 40px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+   
+  }
+
+
+  .flex-box {
+    
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+  
+
+
+}
+.flex-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    font-size: 20px;
+  
+   
+    
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+    
+   
+    
+   
+   
+    color: white;
+  }
+  .flex-list li a:hover {
+    color: #67e3d3; 
+    text-decoration: none;
+  }
+  .flex-list li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ 
+   
+  }
+  
+  .centered-button {
+    padding: 10px 20px;
+    background-color: #58bca9;
+    border: none;
+    height: 90px;
+    width: 500px;
+    border-radius: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #f1f1f1;
+  }
+  .centered-button:hover {
+    background: #61cfc1;
+    color: rgb(255, 255, 255);
+   
+  }
+
+
+  .logo-container {
+    margin-right: 100px;
+  }
+  
+  .logo-image {
+    width: 300px; 
+    height: auto;
+  }
+
+.h1 {
+    font-size: 100px;
+}
+
+div.back {
+    position: relative;
+    background-color: rgba(240, 236, 231, 0.72);
+   
+ height: 400px;
+    width: 1420px;
+    block-size: 400px;
+  }
+
+  video
+  {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  h2 {
+    color: rgb(72, 28, 85);
+    text-align: center;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .square1 {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+    border-right: 10px solid rgb(77, 215, 158);
+    
+  }
+  .square2 {
+    width: 400px;
+    height: 250px;
+    background-color:white;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+    border-right: 10px solid rgb(40, 209, 204);
+    
+  }
+  .square3 {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+    border-right: 10px solid rgb(40, 209, 204);
+    
+  }
+
+  .t1{
+    display: flex;
+    color: #58bca9;
+    justify-content: right;
+    padding-right: 20px;
+  }
+
+  .t2{
+    display: flex;
+    color: #08110f;
+    justify-content: right;
+    padding-right: 20px;
+  }
+
+  .t3 {
+    display: flex;
+   
+    padding-right: 20px;
+    justify-content: right;
+  }
+
+
+  .details-button {
+    display: flex;
+    background-color: white;
+    color: rgb(96, 197, 172);
+    border: 1px solid rgb(71, 211, 206);
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15px;
+    width: 100px;
+  }
+  
+  .details-button:hover {
+    background-color: rgb(87, 176, 179);
+    color: white;
+  }
+
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .square1:hover {
+    transform: scale(1.1);
+  }
+  .square2:hover {
+    transform: scale(1.1);
+  }
+  .square3:hover {
+    transform: scale(1.1);
+  }
+
+
+
+  .details-button1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: rgb(81, 72, 170);
+    border: 1px solid rgb(95, 72, 170);
+    padding: 20px 20px;
+
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15px;
+    width: 160px;
+  }
+
+  .details-button1:hover {
+    background-color: rgb(83, 48, 132);
+    color: white;
+  }
+
+
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square4 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    margin: 40px;
+  }
+  
+  .circle {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(90, 193, 209);
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .top {
+    top: -40px;
+  }
+  
+  
+  .t11{
+    display: flex;
+    flex-direction: column;
+    color: #58bca9;
+    justify-content: center;
+    padding-right: 20px;
+    font-style:oblique
+  }
+
+  .num{
+    font-size: 40px;
+    color: rgb(65, 5, 129);
+
+  }
+
+
+
+  .center-container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .center-button6 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: rgb(81, 72, 170);
+    border: 1px solid rgb(95, 72, 170);
+    padding: 20px 20px;
+    font-size: 15px;
+
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15px;
+    width: 240px;
+  }
+
+  .center-button6:hover {
+    background-color: rgb(83, 48, 132);
+    color: white;
+  }
+
+
+  .center-button7 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: rgb(81, 72, 170);
+    border: 1px solid rgb(95, 72, 170);
+    padding: 20px 20px;
+    font-size: 15px;
+
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15px;
+    width: 240px;
+  }
+
+  .center-button7:hover {
+    background-color: rgb(83, 48, 132);
+    color: white;
+  }
+
+  div.back1 {
+    position: relative;
+    background-color: rgba(52, 29, 142, 0.887);
+   
+ height: 680px;
+    width: 1420px;
+
+  }
+
+  .container8 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square8 {
+  
+    width: 290px;
+    height: 480px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    margin: 40px;
+  }
+ 
+
+  .center-container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .center-button9 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color: rgb(53, 35, 131);
+    color: white;
+    border: 1px solid rgb(95, 72, 170);
+    padding: 20px 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15px;
+    width: 240px;
+  }
+
+  .center-button9:hover {
+    background-color:white;
+    color: rgb(74, 55, 159);
+  }
+
+.t4{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+.container44 {
+    display: flex;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .footer {
+    background-color: rgba(66, 14, 90, 0.938);
+    padding: 20px;
+    height: 330px;
+  }
+  
+  .footer-text {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+
+
+  .div2{
+    position: relative;
+    background-color: rgba(48, 165, 178, 0.887);
+   
+ height: 330px;
+    width: 1420px;
+
+  }
